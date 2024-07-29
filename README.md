@@ -1,21 +1,21 @@
-        # YTDF 
-        1. Fast Download merge highest quality video from youtube.
-        2. supports downloading playlist as well.
-        3. Terminal based
-        4. linux only(as of now)
+# YTDF
 
-        ## Installation
+1. Fast download and merge the highest quality video from YouTube.
+2. Supports downloading playlists as well.
+3. Terminal-based.
+4. Linux only (as of now).
 
-        ```sh
-        git clone https://github.com/rohit-umbare/ytdf.git
-        chmod +x "$automation_dir/ytdf/ytdf.py"
-        echo "alias ytdf='python3 $automation_dir/ytdf/ytdf.py'" >> ~/.bashrc
-        source ~/.bashrc
-        ```
+## Installation
 
-        ## Use
+```sh
+git clone https://github.com/rohit-umbare/ytdf.git
+chmod +x ytdf/ytdf.py
+echo "alias ytdf='python3 ~/ytdf/ytdf.py'" >> ~/.bashrc
+source ~/.bashrc
+```
 
-        ```sh
-        ytdf https://www.youtube.com/watch?v=b713pGS28dk
-        ```
+## Usage
 
+```sh
+ytdf https://www.youtube.com/watch?v=b713pGS28dk
+```
